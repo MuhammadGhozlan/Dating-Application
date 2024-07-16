@@ -7,6 +7,7 @@ namespace DatingApp.Models
     {
         [Key]
         public int Id { get; set; }
+
         [AllowNull, MaxLength(50), ]
         public string Username { get; set; }
     }
